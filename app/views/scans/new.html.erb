@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Hello</title>
+    
+    <style type="text/css" media="screen">
+      pre {background:#E7E7E7;border:1px solid #BDBDBD;padding:10px;width:80%;height:300px;overflow:auto;}
+    </style>
+  </head>
+  
+  <body>
+    <h1>Before:</h1>
+    <pre><%=h @page %></pre>
+    <h1>After:</h1>
+    <pre><%=h @cleaned %></pre>
+    <h1>Errors:</h1>
+    <ul>
+    <% @errors.each do |error| %>
+      <li><%= error %></li>
+    <% end %>
+    </ul>
+    <h1>Diagnostics</h1>
+    <ul>
+    <% @diagnostics.each do |diagnostic| %>
+      <li><%= diagnostic %></li>
+    <% end %>
+    </ul>
+  </body>
+</html>

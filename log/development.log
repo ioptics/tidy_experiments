@@ -1,0 +1,1178 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 20:47:23) [GET]
+
+ActionController::RoutingError (No route matches "/scan" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 20:47:28) [GET]
+
+Errno::ENOENT (No such file or directory - http://www.rawnet.com):
+  app/controllers/scans_controller.rb:3:in `initialize'
+  app/controllers/scans_controller.rb:3:in `open'
+  app/controllers/scans_controller.rb:3:in `new'
+
+Rendered rescues/_trace (87.9ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 20:48:09) [GET]
+Rendering scans/new
+Completed in 1007ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 20:48:12) [GET]
+Rendering scans/new
+Completed in 614ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 20:48:53) [GET]
+Rendering scans/new
+Completed in 589ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 20:48:55) [GET]
+Rendering scans/new
+Completed in 941ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 20:57:56) [GET]
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/scans_controller.rb:7:in `get'
+  app/controllers/scans_controller.rb:7:in `new'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:543:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:440:in `start'
+  app/controllers/scans_controller.rb:6:in `new'
+
+Rendered rescues/_trace (104.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 20:58:06) [GET]
+
+ArgumentError (HTTP request path is empty):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:1470:in `initialize'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:1588:in `initialize'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:772:in `new'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:772:in `get'
+  app/controllers/scans_controller.rb:7:in `new'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:543:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:440:in `start'
+  app/controllers/scans_controller.rb:6:in `new'
+
+Rendered rescues/_trace (36.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 20:58:17) [GET]
+
+NameError (undefined local variable or method `html' for #<ScansController:0x24fa25c>):
+  app/controllers/scans_controller.rb:14:in `new'
+  tidy (1.1.2) lib/tidy.rb:59:in `open'
+  app/controllers/scans_controller.rb:11:in `new'
+
+Rendered rescues/_trace (31.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 20:58:34) [GET]
+Rendering scans/new
+Completed in 474ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 20:58:39) [GET]
+Rendering scans/new
+Completed in 237ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 20:59:03) [GET]
+Rendering scans/new
+Completed in 186ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 20:59:24) [GET]
+Rendering scans/new
+Completed in 237ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:01:26) [GET]
+
+NoMethodError (undefined method `host' for "http://www.rawnet.com":String):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:379:in `get_response'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:337:in `get_print'
+  app/controllers/scans_controller.rb:6:in `new'
+
+Rendered rescues/_trace (32.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:01:59) [GET]
+Rendering scans/new
+Completed in 305ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:02:01) [GET]
+Rendering scans/new
+Completed in 399ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:07:42) [GET]
+
+Errno::ENOENT (No such file or directory - http://www.rawnet.com):
+  app/controllers/scans_controller.rb:4:in `initialize'
+  app/controllers/scans_controller.rb:4:in `open'
+  app/controllers/scans_controller.rb:4:in `new'
+
+Rendered rescues/_trace (34.2ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:08:48) [GET]
+Rendering scans/new
+Completed in 1955ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:08:53) [GET]
+Rendering scans/new
+Completed in 2015ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:09:37) [GET]
+Rendering scans/new
+Completed in 889ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:38) [GET]
+
+ActionController::RoutingError (No route matches "/css/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:38) [GET]
+  Parameters: {"v"=>"2"}
+
+ActionController::RoutingError (No route matches "/css/global.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:38) [GET]
+
+ActionController::RoutingError (No route matches "/css/home.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:38) [GET]
+
+ActionController::RoutingError (No route matches "/css/work.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:38) [GET]
+
+ActionController::RoutingError (No route matches "/css/thickbox.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:38) [GET]
+
+ActionController::RoutingError (No route matches "/js/swfobject.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:38) [GET]
+
+ActionController::RoutingError (No route matches "/js/swfobject.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:38) [GET]
+
+ActionController::RoutingError (No route matches "/js/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:38) [GET]
+
+ActionController::RoutingError (No route matches "/js/thickbox.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:38) [GET]
+
+ActionController::RoutingError (No route matches "/js/rawnet.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:38) [GET]
+
+ActionController::RoutingError (No route matches "/css/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:38) [GET]
+  Parameters: {"v"=>"2"}
+
+ActionController::RoutingError (No route matches "/css/global.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:38) [GET]
+
+ActionController::RoutingError (No route matches "/css/home.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:38) [GET]
+
+ActionController::RoutingError (No route matches "/css/work.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:38) [GET]
+
+ActionController::RoutingError (No route matches "/css/thickbox.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/banners/attwilliams.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/sm-icon-seo.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/work-offshore.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/form/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/footer-logos-2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:40) [GET]
+
+ActionController::RoutingError (No route matches "/css/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:40) [GET]
+  Parameters: {"v"=>"2"}
+
+ActionController::RoutingError (No route matches "/css/global.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:40) [GET]
+
+ActionController::RoutingError (No route matches "/css/home.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:40) [GET]
+
+ActionController::RoutingError (No route matches "/css/work.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:40) [GET]
+
+ActionController::RoutingError (No route matches "/css/thickbox.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:40) [GET]
+
+ActionController::RoutingError (No route matches "/js/swfobject.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:40) [GET]
+
+ActionController::RoutingError (No route matches "/js/swfobject.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:40) [GET]
+
+ActionController::RoutingError (No route matches "/js/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:40) [GET]
+
+ActionController::RoutingError (No route matches "/js/thickbox.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:09:40) [GET]
+
+ActionController::RoutingError (No route matches "/js/rawnet.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:09:46) [GET]
+Rendering scans/new
+Completed in 644ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:10:21) [GET]
+Rendering scans/new
+Completed in 695ms (View: 79, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:21) [GET]
+
+ActionController::RoutingError (No route matches "/css/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:21) [GET]
+  Parameters: {"v"=>"2"}
+
+ActionController::RoutingError (No route matches "/css/global.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:21) [GET]
+
+ActionController::RoutingError (No route matches "/css/home.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:21) [GET]
+
+ActionController::RoutingError (No route matches "/css/work.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:21) [GET]
+
+ActionController::RoutingError (No route matches "/css/thickbox.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:21) [GET]
+
+ActionController::RoutingError (No route matches "/js/swfobject.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:21) [GET]
+
+ActionController::RoutingError (No route matches "/js/swfobject.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:21) [GET]
+
+ActionController::RoutingError (No route matches "/js/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:21) [GET]
+
+ActionController::RoutingError (No route matches "/js/thickbox.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:22) [GET]
+
+ActionController::RoutingError (No route matches "/js/rawnet.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:22) [GET]
+
+ActionController::RoutingError (No route matches "/css/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:22) [GET]
+
+ActionController::RoutingError (No route matches "/js/swfobject.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:22) [GET]
+
+ActionController::RoutingError (No route matches "/js/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:22) [GET]
+
+ActionController::RoutingError (No route matches "/js/thickbox.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:22) [GET]
+
+ActionController::RoutingError (No route matches "/js/rawnet.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/banners/attwilliams.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/sm-icon-seo.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/work-offshore.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/form/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/footer-logos-1.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:23) [GET]
+
+ActionController::RoutingError (No route matches "/css/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:23) [GET]
+  Parameters: {"v"=>"2"}
+
+ActionController::RoutingError (No route matches "/css/global.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:23) [GET]
+
+ActionController::RoutingError (No route matches "/css/home.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:23) [GET]
+
+ActionController::RoutingError (No route matches "/css/work.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:23) [GET]
+
+ActionController::RoutingError (No route matches "/css/thickbox.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:23) [GET]
+
+ActionController::RoutingError (No route matches "/js/swfobject.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:23) [GET]
+
+ActionController::RoutingError (No route matches "/js/swfobject.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:23) [GET]
+
+ActionController::RoutingError (No route matches "/js/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:23) [GET]
+
+ActionController::RoutingError (No route matches "/js/thickbox.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:10:23) [GET]
+
+ActionController::RoutingError (No route matches "/js/rawnet.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:10:35) [GET]
+Rendering scans/new
+Completed in 869ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:11:19) [GET]
+Rendering scans/new
+Completed in 598ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:20) [GET]
+
+ActionController::RoutingError (No route matches "/css/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:20) [GET]
+  Parameters: {"v"=>"2"}
+
+ActionController::RoutingError (No route matches "/css/global.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:20) [GET]
+
+ActionController::RoutingError (No route matches "/css/home.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:20) [GET]
+
+ActionController::RoutingError (No route matches "/css/work.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:20) [GET]
+
+ActionController::RoutingError (No route matches "/css/thickbox.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:20) [GET]
+
+ActionController::RoutingError (No route matches "/js/swfobject.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:20) [GET]
+
+ActionController::RoutingError (No route matches "/js/swfobject.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:20) [GET]
+
+ActionController::RoutingError (No route matches "/js/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:20) [GET]
+
+ActionController::RoutingError (No route matches "/js/thickbox.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:20) [GET]
+
+ActionController::RoutingError (No route matches "/js/rawnet.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:20) [GET]
+
+ActionController::RoutingError (No route matches "/css/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:20) [GET]
+
+ActionController::RoutingError (No route matches "/js/rawnet.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/banners/attwilliams.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/sm-icon-seo.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/work-offshore.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/form/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/footer-logos-1.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:21) [GET]
+
+ActionController::RoutingError (No route matches "/css/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:21) [GET]
+  Parameters: {"v"=>"2"}
+
+ActionController::RoutingError (No route matches "/css/global.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:21) [GET]
+
+ActionController::RoutingError (No route matches "/css/home.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:21) [GET]
+
+ActionController::RoutingError (No route matches "/css/work.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:21) [GET]
+
+ActionController::RoutingError (No route matches "/css/thickbox.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:21) [GET]
+
+ActionController::RoutingError (No route matches "/js/swfobject.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:21) [GET]
+
+ActionController::RoutingError (No route matches "/js/swfobject.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:21) [GET]
+
+ActionController::RoutingError (No route matches "/js/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:21) [GET]
+
+ActionController::RoutingError (No route matches "/js/thickbox.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-13 21:11:21) [GET]
+
+ActionController::RoutingError (No route matches "/js/rawnet.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:11:37) [GET]
+Rendering scans/new
+Completed in 1096ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:12:53) [GET]
+Rendering scans/new
+Completed in 1763ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:13:04) [GET]
+Rendering scans/new
+Completed in 860ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:13:18) [GET]
+Rendering scans/new
+Completed in 1592ms (View: 66, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:15:49) [GET]
+Rendering scans/new
+Completed in 1080ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:18:42) [GET]
+Rendering scans/new
+Completed in 793ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:19:35) [GET]
+Rendering scans/new
+Completed in 967ms (View: 67, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-08-13 21:22:25) [GET]
+
+SyntaxError (/Users/peterlambert/Sites/tidytest/app/controllers/scans_controller.rb:17: syntax error, unexpected tSYMBEG, expecting '}'
+      :accessibility_check => 3
+       ^):
+  
+
+Rendered rescues/_trace (32.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:22:32) [GET]
+Rendering scans/new
+Completed in 876ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:22:58) [GET]
+Rendering scans/new
+Completed in 664ms (View: 67, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:24:18) [GET]
+Rendering scans/new
+Completed in 621ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:24:27) [GET]
+Rendering scans/new
+Completed in 613ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:30:19) [GET]
+Rendering scans/new
+Completed in 31006ms (View: 67, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:30:50) [GET]
+Rendering scans/new
+Completed in 647ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:30:59) [GET]
+Rendering scans/new
+Completed in 689ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:31:53) [GET]
+Rendering scans/new
+Completed in 628ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:32:39) [GET]
+Rendering scans/new
+Completed in 786ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:33:50) [GET]
+Rendering scans/new
+Completed in 590ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:37:18) [GET]
+Rendering scans/new
+Completed in 905ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:37:52) [GET]
+Rendering scans/new
+Completed in 610ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:38:02) [GET]
+Rendering scans/new
+Completed in 775ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:38:38) [GET]
+
+ArgumentError (wrong number of arguments (2 for 1)):
+  app/controllers/scans_controller.rb:25:in `replace'
+  app/controllers/scans_controller.rb:25:in `new'
+  tidy (1.1.2) lib/tidy.rb:59:in `open'
+  app/controllers/scans_controller.rb:21:in `new'
+
+Rendered rescues/_trace (92.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:38:46) [GET]
+
+NoMethodError (private method `gsub' called for #<Array:0x257d4a4>):
+  app/controllers/scans_controller.rb:25:in `new'
+  tidy (1.1.2) lib/tidy.rb:59:in `open'
+  app/controllers/scans_controller.rb:21:in `new'
+
+Rendered rescues/_trace (31.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:39:03) [GET]
+Rendering scans/new
+Completed in 779ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:39:31) [GET]
+Rendering scans/new
+Completed in 730ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:39:39) [GET]
+Rendering scans/new
+Completed in 818ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:40:06) [GET]
+Rendering scans/new
+Completed in 662ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:40:12) [GET]
+Rendering scans/new
+Completed in 1014ms (View: 67, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:40:18) [GET]
+Rendering scans/new
+Completed in 720ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:40:59) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split):
+  app/controllers/scans_controller.rb:25:in `new'
+  tidy (1.1.2) lib/tidy.rb:59:in `open'
+  app/controllers/scans_controller.rb:21:in `new'
+
+Rendered rescues/_trace (31.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:41:24) [GET]
+Rendering scans/new
+Completed in 1323ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:42:40) [GET]
+Rendering scans/new
+Completed in 1949ms (View: 106, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:43:00) [GET]
+Rendering scans/new
+Completed in 2258ms (View: 128, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:43:14) [GET]
+Rendering scans/new
+Completed in 501ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:43:30) [GET]
+Rendering scans/new
+Completed in 3806ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:43:45) [GET]
+Rendering scans/new
+Completed in 1536ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:44:17) [GET]
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:560:in `initialize'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:560:in `open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:560:in `connect'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:93:in `timeout'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:560:in `connect'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:553:in `do_start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:542:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:242:in `open_http'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:616:in `buffer_open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:164:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `catch'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:132:in `open_uri'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:518:in `open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:30:in `open'
+  app/controllers/scans_controller.rb:5:in `new'
+
+Rendered rescues/_trace (108.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:44:36) [GET]
+Rendering scans/new
+Completed in 694ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:44:47) [GET]
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:560:in `initialize'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:560:in `open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:560:in `connect'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:93:in `timeout'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:560:in `connect'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:553:in `do_start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:542:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:242:in `open_http'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:616:in `buffer_open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:164:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `catch'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:132:in `open_uri'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:518:in `open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:30:in `open'
+  app/controllers/scans_controller.rb:5:in `new'
+
+Rendered rescues/_trace (39.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:44:53) [GET]
+Rendering scans/new
+Completed in 973ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:45:42) [GET]
+Rendering scans/new
+Completed in 1196ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:46:35) [GET]
+Rendering scans/new
+Completed in 911ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:47:41) [GET]
+Rendering scans/new
+Completed in 6172ms (View: 30, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:48:15) [GET]
+Rendering scans/new
+Completed in 4252ms (View: 27, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:48:36) [GET]
+Rendering scans/new
+Completed in 3529ms (View: 26, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
+
+
+Processing ScansController#new (for 127.0.0.1 at 2009-08-13 21:49:22) [GET]
+Rendering scans/new
+Completed in 3897ms (View: 29, DB: 0) | 200 OK [http://0.0.0.0/scans/new]
