@@ -1,9 +1,19 @@
+require 'markup_validity'
+
 class ScansController < ApplicationController
   def new
     require 'open-uri'
-    url = 'http://www.toyota.co.uk'
+    url = 'http://new.teabass.com'
     @page = Hpricot(open(url))
     
+    @scan = MarkupValidity::Validator.new @page.to_s, MarkupValidity::Validator::XHTML1_TRANSITIONAL
+    
+    # tidy_scan(@page.to_s)
+  end
+  
+  private
+  
+  def tidy_scan(html)
     options = {
       :show_warnings => false, 
       :show_errors => 6, 
@@ -23,7 +33,7 @@ class ScansController < ApplicationController
     Tidy.open(options) do |tidy|
       tidy.options.output_xml = true
 
-      @cleaned = tidy.clean(@page.to_s)
+      @cleaned = tidy.clean(html)
       @errors = tidy.errors.first.to_s.split("\n")
       @diagnostics = tidy.diagnostics.first.to_s.split("\n")
     end

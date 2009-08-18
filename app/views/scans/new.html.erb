@@ -9,20 +9,11 @@
   </head>
   
   <body>
-    <h1>Before:</h1>
-    <pre><%=h @page %></pre>
-    <h1>After:</h1>
-    <pre><%=h @cleaned %></pre>
-    <h1>Errors:</h1>
+    <h1>Scan Results:</h1>
+    <pre><%=h @page.to_s %></pre>
     <ul>
-    <% @errors.each do |error| %>
+    <% @scan.errors.each do |error| %>
       <li><%= error %></li>
-    <% end %>
-    </ul>
-    <h1>Diagnostics</h1>
-    <ul>
-    <% @diagnostics.each do |diagnostic| %>
-      <li><%= diagnostic %></li>
     <% end %>
     </ul>
   </body>
